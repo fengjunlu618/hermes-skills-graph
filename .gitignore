@@ -1,17 +1,11 @@
 # Temp / cache
 cache/
-graphify-out/*.json
-graphify-out/cache/
-graphify-out/manifest.json
-!graphify-out/graph.json
+graphify-out/
 
-# Generated data files (too large / regeneratable)
+# Generated data (regeneratable via update script)
 skills_analysis.json
 skills_graph.json
 skills_report.html
-
-# Keep the interactive graph (the main deliverable)
-!skills_knowledge_graph.html
 
 # OS
 .DS_Store
